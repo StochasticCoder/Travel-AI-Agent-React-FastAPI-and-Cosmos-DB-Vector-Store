@@ -13,6 +13,9 @@ on:
 
 jobs:
   build:
+    defaults:
+        run:
+          working-directory: web
     runs-on: ubuntu-latest
 
     steps:
