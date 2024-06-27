@@ -26,6 +26,7 @@ jobs:
           envkey_DEBUG: false 
           envkey_REACT_APP_API_HOST: "https://app-agent-api-test-centralus.azurewebsites.net"
           fail_on_empty: true
+          directory: web/
           file_name: .env
 
       - name: Show files
